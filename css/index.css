@@ -1,0 +1,39 @@
+* {
+	pad: 0;
+	margin: 0;
+}
+body {
+	background-color: #333;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	background-image: url(/img/fon/01-1.jpg);
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+
+	padding: 7px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+main {
+	padding: 20px;
+}
+
+nav a:hover {
+	border-radius: 45px;
+	color: #fff;
+	background-color: darkgrey;
+}
+
+.iconbar {
+	width: 15px;
+	text-decoration: none;
+	background-image: url(/img/icon/Header.jpg);
+}
